@@ -1,0 +1,123 @@
+/* common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* common css end  */
+
+
+
+/* starting page start  */
+#starting-page{
+    padding-top: 335px;
+    padding-bottom: 335px;
+    background: #fff;
+    text-align: center;
+}
+.title h2{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.input-box input {
+    padding: 42px 505px 42px 52px;
+    color: #D9D9D9;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 79px;
+    border: 1px solid #D9D9D9;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.btn button{
+    padding: 15px 87px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 53px;
+    background: #7041D3;;
+    border: none;
+}
+/* starting page end  */
+
+
+
+
+/* player one page start */
+#playerone{
+    padding-top: 335px;
+    padding-bottom: 335px;
+    background: #fff;
+    text-align: center;
+    display: none;
+}
+.error h3{
+    padding: 9px 124px;
+    border-radius: 5px;
+    background: #CC3030;
+    width: 778px;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 60px;
+    display: none;
+}
+/* player one page end  */
+
+
+
+
+/* player two page start */
+#playertwo{
+    padding-top: 335px;
+    padding-bottom: 335px;
+    background: #fff;
+    text-align: center;
+    display: none;
+}
+/* player two page end  */
+
+
+
+
+/* result page start  */
+#results{
+    padding-top: 476px;
+    padding-bottom: 476px;
+    background: #fff;
+    text-align: center;
+    display: none;
+}
+.game-result{
+    color: #000;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* result page end  */
